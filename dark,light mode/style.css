@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#heading {
+    padding: 25px;
+    text-align: center;
+    }
+#pargraph{
+width: 90%;
+margin: auto;
+text-align: center;
+padding-top: 25px;
+padding-bottom: 25px;
+font-size: 20px;
+}
+.MoreText{
+    display: none;
+}
+#btn-1{
+    /* background:#1eb2a6 !important; */
+    background:white;
+    color: black;
+    height: 50px;
+    width: 160px;
+    text-align: center;
+    align-items: center;
+    /* color: white !important; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    margin-left: 40%;
+    font-size: 20px;
+    box-shadow: 5px 10px #888;
+    /* box-shadow: 2px rgb(70, 61, 61); */
+}
+#btn-2{
+    /* background:white !important; */
+    background:white;
+    color: black;
+    border: none;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 50px;
+    width:160px;
+    margin: 4px;
+    /* color: #1eb2a6; */
+    cursor: pointer;
+    font-size: 20px;
+    /* box-shadow: 2px rgb(70, 61, 61); */
+    box-shadow: 5px 10px #888;
+}
+#pargraph.Show-Less .MoreText{
+    display: inline;
+}
+/* #btn-1, #btn-2{
+    background:;
+    padding:10px 18px;
+    text-decoration: none;
+    color:var(--primary-color);
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+} */
+ 
+/* #btn{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+#btn-1{
+    display: flex;
+    justify-content:space-evenly; 
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    align-items: center;
+    cursor: pointer;
+} */
+/* #icon {
+background: none;
+border: none;
+outline: none;
+cursor: pointer;
+font-size: 50px;
+margin-left: 47%;
+margin-top:2%;
+} */
